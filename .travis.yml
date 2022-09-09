@@ -1,8 +1,9 @@
-dist: jammy
-group: dev
-language: python
+dist: xenial
+group: edge
+language: shell
 python:
-  - 3.8
+  - 3.7.13
+  - 3.8.13
   - 3.9
   - 3.10
   - nightly
