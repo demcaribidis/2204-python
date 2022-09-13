@@ -1,15 +1,9 @@
-os: linux
 dist: xenial
-group: edge
+group: dev
 language: python
-before_script:
-  - go version
-  - python3 --version
 python:
-  - 3.7.13
-  - 3.8.13
-  - 3.9
-  - 3.10
+  - 3.7
+  - 3.8
   - nightly
 script:
   - python --version
