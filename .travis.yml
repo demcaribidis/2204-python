@@ -1,11 +1,7 @@
 dist: xenial
 group: edge
-language: python
-python:
-  - 3.7.13
-  - 3.8.13
-  - 3.9
-  - nightly
+language: opal
 script:
   - python --version
   - python ./hello.py
+  - python3 --version
