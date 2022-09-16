@@ -1,5 +1,5 @@
 dist: xenial
-group: edge1
+group: edge
 language: opal
 script:
   - python --version
