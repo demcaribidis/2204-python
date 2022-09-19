@@ -1,6 +1,6 @@
 dist: xenial
 group: edge
-language: opal
+language: sardonyx
 script:
   - python --version
   - python ./hello.py
