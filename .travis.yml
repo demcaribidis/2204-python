@@ -5,4 +5,4 @@ script:
   - python --version
   - python ./hello.py
   - python3 --version
-
+  - node -v
