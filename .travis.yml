@@ -1,6 +1,7 @@
+os: linux
 dist: xenial
-group: edge
-language: shell
+group: dev
+language: python
 python:
   - 3.7.13
   - 3.8.13
@@ -9,4 +10,5 @@ python:
 script:
   - python --version
   - python ./hello.py
+  - python3 --version
   
